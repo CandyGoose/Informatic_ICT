@@ -36,4 +36,6 @@
 3.	[Основы компьютерных сетей](https://stepik.org/course/58873/promo)
 4. [Основы GIT](https://stepik.org/course/3145/promo)
 
+**Прохождение курсов из ссылок выше**
 
+1. [Основы в Linux](https://github.com/VeraKasianenko/Courses/tree/main/Stepik_Introduction_to_Linux)
