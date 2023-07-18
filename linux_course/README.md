@@ -38,4 +38,4 @@
 
 **Прохождение курсов из ссылок выше**
 
-1. [Основы в Linux](https://github.com/VeraKasianenko/Courses/tree/main/Stepik_Introduction_to_Linux)
+1. [Основы в Linux](https://github.com/VeraKasianenko/Courses/tree/main/ITMO_courses/Stepik_Introduction_to_Linux)
