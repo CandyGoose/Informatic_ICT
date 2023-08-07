@@ -22,7 +22,7 @@ jobs:
       run: bash labs/1_lab/script.bash
 
     - name: Run Python Test for Script 1
-      run: python labs/1_lab/tester_1.py
+      run: python labs/1_lab/tester.pyc
 
   test_script2:
     runs-on: ubuntu-latest
@@ -43,7 +43,7 @@ jobs:
       run: bash labs/2_lab/script.bash
 
     - name: Run Python Test for Script 2
-      run: python labs/2_lab/tester_2.py
+      run: python labs/2_lab/tester_2.pyc
 
   test_script3:
     runs-on: ubuntu-latest
@@ -64,5 +64,5 @@ jobs:
       run: bash labs/3_lab/script.bash
 
     - name: Run Python Test for Script 3
-      run: python labs/3_lab/tester_3.py
+      run: python labs/3_lab/tester_3.pyc
     
