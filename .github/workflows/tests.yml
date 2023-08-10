@@ -1,22 +1,62 @@
 on: [push]
 
 jobs:
-    test_script3:
-        runs-on: ubuntu-latest
+  test_script1:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
     
-        steps:
-        - name: Check out code
-          uses: actions/checkout@v2
+    - name: Setup Python Version
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install Python dependencies
+      run: python -m pip install --upgrade pip requests 
+      
+    - name: Run Bash Script Test
+      run: bash labs/1_lab/script.bash
+
+    - name: Run Python Test for Script 1
+      run: python labs/1_lab/tester.py
+    
+  test_script2:
+      runs-on: ubuntu-latest
+  
+      steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      
+      - name: Setup Python Version
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade pip requests 
         
-        - name: Setup Python Version
-          uses: actions/setup-python@v2
-          with:
-            python-version: 3.9
-        - name: Install Python dependencies
-          run: python -m pip install --upgrade pip requests 
-          
-        - name: Run Bash Script Test
-          run: bash labs/3_lab/script.bash
-    
-        - name: Run Python Test for Script 3
-          run: python labs/3_lab/tester_3.py
+      - name: Run Bash Script Test
+        run: bash labs/2_lab/script.bash
+  
+      - name: Run Python Test for Script 2
+        run: python labs/2_lab/tester_2.py  
+
+  test_script3:
+      runs-on: ubuntu-latest
+  
+      steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      
+      - name: Setup Python Version
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade pip requests 
+        
+      - name: Run Bash Script Test
+        run: bash labs/3_lab/script.bash
+  
+      - name: Run Python Test for Script 3
+        run: python labs/3_lab/tester_3.py
