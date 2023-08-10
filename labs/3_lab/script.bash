@@ -66,5 +66,4 @@ else
     fl="files"
 fi
 
-echo
-echo $dir $dr $file $fl
+echo -e "\n$dir $dr $file $fl"
