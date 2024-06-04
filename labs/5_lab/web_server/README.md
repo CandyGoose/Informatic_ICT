@@ -41,7 +41,7 @@ sudo docker container prune
 ```
 sudo docker container ls
 ```
-![image](https://github.com/CandyGoose/Informatic_ICT/assets/112972833/fbbef553-ea17-4e7f-8d2a-c44ec93af5b1)
+![image](img/img0.png)
 Появятся такие записи. Теперь необходимо прописать следующие команды:
 ```
 sudo docker stop webserver
@@ -55,13 +55,13 @@ sudo bash run.bash
 ```
 5) Зайдите в браузер на виртуальной машине и наберите в поиске `localhost`. Должна появиться следующая страница:
 
-![image](https://github.com/CandyGoose/Informatic_ICT/assets/112972833/4b74f9ba-9725-4277-947d-f1a671108a80)
+![image](img/img1.png)
 
 6) Возвращается в терминал и прописываем:
 ```
 sudo bash exec.bash
 ```
-![image](https://github.com/CandyGoose/Informatic_ICT/assets/112972833/cdffffe0-1009-471f-8ce9-4adcd0792c62)
+![image](img/img2.png)
 
 Чтобы выйти отсюда достаточно написать `exit`
 
@@ -69,4 +69,4 @@ sudo bash exec.bash
 
 ## Как это примерно выглядело у меня:
 
-![pic](https://github.com/CandyGoose/Informatic_ICT/assets/112972833/5620aa3b-e044-4f62-b4d7-7d286187a3cb)
+![pic](img/img3.png)
