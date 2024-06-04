@@ -39,7 +39,7 @@
 
 <h1 align="center">Скриншот</p>
 
-![PrtSc](https://user-images.githubusercontent.com/112972833/212992796-68aea0b1-2cb6-4f59-9999-92002e1fa1ef.png)
+![PrtSc](PrtSc.png)
 
 ## Дополнительные источники
 

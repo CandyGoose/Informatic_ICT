@@ -52,4 +52,3 @@ for i, test in enumerate(TESTS):
         print('PASSED')
     else:
         print('NOT PASSED')
-# okay decompiling tester_3.pyc

@@ -7,7 +7,7 @@
 Курс рассчитан на начинающих пользователей Linux и не требует никаких предварительных знаний. Для прохождения курса также будет полезно (но не обязательно) знание английского языка на уровне чтения технических текстов.
 
 ## Инструкция
-[Инструкция к установке Ubuntu через VirtualBox](https://github.com/VeraKasianenko/Informatic_ICT/tree/main/linux_course/preparing)
+[Инструкция к установке Ubuntu через VirtualBox](https://github.com/CandyGoose/Informatic_ICT/tree/main/linux_course/preparing)
 
 ## Лекции
 1. [Лекция 1. Мотивация. Основные термины и определения.](https://youtu.be/NrUtQdrtt6Q)
@@ -20,12 +20,12 @@
 
 
 ## Лабораторные работы
-1. [Лабораторная работа №1](https://github.com/VeraKasianenko/Informatic_ICT/tree/main/labs/1_lab).
-2. [Лабораторная работа №2](https://github.com/VeraKasianenko/Informatic_ICT/tree/main/labs/2_lab).
-3. [Лабораторная работа №3](https://github.com/VeraKasianenko/Informatic_ICT/tree/main/labs/3_lab).
-4. [Лабораторная работа №4](https://github.com/VeraKasianenko/Informatic_ICT/tree/main/labs/4_lab).
-5. [Лабораторная работа №5](https://github.com/VeraKasianenko/Informatic_ICT/tree/main/labs/5_lab).
-6. [Лабораторная работа №6](https://github.com/VeraKasianenko/Informatic_ICT/tree/main/labs/6_lab).
+1. [Лабораторная работа №1](https://github.com/CandyGoose/Informatic_ICT/tree/main/labs/1_lab).
+2. [Лабораторная работа №2](https://github.com/CandyGoose/Informatic_ICT/tree/main/labs/2_lab).
+3. [Лабораторная работа №3](https://github.com/CandyGoose/Informatic_ICT/tree/main/labs/3_lab).
+4. [Лабораторная работа №4](https://github.com/CandyGoose/Informatic_ICT/tree/main/labs/4_lab).
+5. [Лабораторная работа №5](https://github.com/CandyGoose/Informatic_ICT/tree/main/labs/5_lab).
+6. [Лабораторная работа №6](https://github.com/CandyGoose/Informatic_ICT/tree/main/labs/6_lab).
 
 
 
@@ -38,4 +38,4 @@
 
 **Прохождение курсов из ссылок выше**
 
-1. [Основы в Linux](https://github.com/VeraKasianenko/Courses/tree/main/ITMO_courses/Stepik_Introduction_to_Linux)
+1. [Основы в Linux](https://github.com/CandyGoose/Courses/tree/main/ITMO_courses/Stepik_Introduction_to_Linux)
